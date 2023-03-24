@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btCadastro =(Button) findViewById(R.id.btCadastro);
+        btCadastro = (Button) findViewById(R.id.btCadastro);
         btCadastro.setOnClickListener(this);
     }
 
